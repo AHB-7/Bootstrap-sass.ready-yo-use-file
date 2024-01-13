@@ -1,27 +1,32 @@
 {
-  "name": "bootstrap",
-  "version": "0.0.0",
-  "description": "testing bootstrap",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/me/projectname.git"
-  },
-  "keywords": [
-    "whatever",
-    "I",
-    "want"
-  ],
-  "author": "Alanb B",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/me/projectname/issues"
-  },
-  "homepage": "https://github.com/me/projectname#readme",
-  "dependencies": {
-    "bootstrap": "^5.3.2"
-  }
+    "name": "bootstrap",
+    "version": "0.0.0",
+    "description": "testing bootstrap",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "sass src/scss:dist/css",
+        "watch": "sass --watch src/scss:dist/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/me/projectname.git"
+    },
+    "keywords": [
+        "whatever",
+        "I",
+        "want"
+    ],
+    "author": "Alanb B",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/me/projectname/issues"
+    },
+    "homepage": "https://github.com/me/projectname#readme",
+    "dependencies": {
+        "bootstrap": "^5.3.2"
+    },
+    "devDependencies": {
+        "sass": "^1.69.7"
+    }
 }
